@@ -6,12 +6,5 @@ num = random.randint(0,100)
 boy_name = input("Write your name: ")
 girl_name = input("Write her name: ")
 
-#Calculating the value of love LOL!!
-if boy_name == "Atharv" and girl_name == "Payal":
-    print("Love between Atharv and Payal is 100%")
-
-if boy_name == "Waggy" and girl_name == "Kenny":
-    print("Love between Waggy and Kenny is 100%")
-
-else: 
+#Calculating the value of love LOL!! 
     print("love between " + boy_name + " and " + girl_name + " found to be " + str(num) + "%")
